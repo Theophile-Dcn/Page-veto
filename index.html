@@ -6,13 +6,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/output.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title>Textoprod</title>
 </head>
 <body>
+    <div class="h-[100vh]">
     <div class="flex justify-around">
-        <img src="Texto-Prod-logo.webp" alt="logo entreprise" class="z-10">  
+        <img src="/image-site/LOGO-TEXTO_PROD-Resolument_Veto-02.png" alt="logo entreprise" class="w-[200px] z-10">  
         <div class="my-auto h-full z-10">
             <i class="fa-brands fa-facebook p-2 border border-black rounded-full" style="color: #000000;"></i>
             <i class="fa-brands fa-linkedin p-2 border border-black rounded-full" style="color: #000000;"></i>
@@ -21,11 +25,17 @@
     </div>
     <div class="flex pt-[100px]">
         <div class="flex">
-            <img src="pellicule.png" alt="" class="absolute top-20 -left-20 z-0">
-            <!-- <span class="border border-black w-6 h-0 z-10"></span> -->
-            <div class="flex-col z-10 w-[40vw] p-[60px] flex justify-center text-center align-center">  
-           <h1 class="font-bold text-gray-600">TEXTOPROD</h1>
-           <p class="">Chez TextoProd, nous comprenons l'importance de la communication visuelle pour le secteur vétérinaire. Notre entreprise se spécialise dans la production de vidéos et de photos de haute qualité pour les professionnels de la santé animale. Avec des années d'expérience dans le domaine, nous avons acquis une compréhension approfondie des besoins spécifiques de votre secteur.</p>  
+            <img src="pellicule.png" alt="" class="absolute -top-100 -left-20 -z-10">
+            <div class="flex-col z-10 w-[40vw] p-[60px] mt-[115px] flex ">  
+                <h1 class="font-bold text-gray-600">TEXTOPROD</h1>
+                <span class="w-[100px] border-2 h-0 "></span>
+                <p class="">Chez TextoProd, nous comprenons l'importance de la communication visuelle pour le secteur vétérinaire. Notre entreprise se spécialise dans la production de vidéos et de photos de haute qualité pour les professionnels de la santé animale. Avec des années d'expérience dans le domaine, nous avons acquis une compréhension approfondie des besoins spécifiques de votre secteur.</p>
+                <button class="learn-more">
+                    <span class="circle" aria-hidden="true">
+                    <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text"> En savoir plus</span>
+                </button> 
             </div>    
         </div>
         <div class="w-[55vw] pt-[80px] mr-[70px]">
@@ -34,7 +44,7 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
             <!-- Slides -->
-            <div class="swiper-slide w-[900px]"><img src="./image-site/swiper/1288031.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./image-site/swiper/1288031.jpg" alt=""></div>
             <div class="swiper-slide"><img src="./image-site/swiper/1288194.jpg" alt=""></div>
             <div class="swiper-slide"><img src="./image-site/swiper/Consultation-ophtalmo4.jpg" alt=""></div>
             <div class="swiper-slide"><img src="./image-site/swiper/CV-Europe-10.jpg" alt=""></div>
@@ -54,10 +64,25 @@
         </div>
                 </div>
     </div>
-    <div class="">
-        <h1 class="">Présenter</h1>
-        <div class="">
-
+</div>
+    <div class="h-full bg-neutral-300 mt-[200px]">
+        <h1 class="text-center pt-6 text-4xl">Présenter</h1>
+        <div class="flex justify-around">
+            <iframe class="w-[550px] h-[500px]" src="https://player.vimeo.com/video/196285472?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="w-[550px] h-[500px]" src="https://player.vimeo.com/video/687608634?h=781c952b50" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="w-[550px] h-[500px]" src="https://player.vimeo.com/video/350552180?h=65f74a2615" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <h1 class="text-center pt-6 text-4xl">Recruter</h1>
+        <div class="flex justify-around">
+            <iframe class="w-[550px] h-[500px]" src="https://player.vimeo.com/video/196285472?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="w-[550px] h-[500px]" src="https://player.vimeo.com/video/687608634?h=781c952b50" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="w-[550px] h-[500px]" src="https://player.vimeo.com/video/350552180?h=65f74a2615" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <h1 class="text-center pt-6 text-4xl">Expliquer</h1>
+        <div class="flex justify-around">
+            <iframe class="w-[550px] h-[500px]" src="https://player.vimeo.com/video/196285472?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="w-[550px] h-[500px]" src="https://player.vimeo.com/video/687608634?h=781c952b50" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="w-[550px] h-[500px]" src="https://player.vimeo.com/video/350552180?h=65f74a2615" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
     
@@ -70,26 +95,39 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
-        effect: "coverflow",
-        loop: true,
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: "2",
-        coverflowEffect: {
-            rotate: 30,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: true,
-        },
-        pagination: {
-            el: ".swiper-pagination",
-            dynamicBullets: true,
-        },
-        navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
+    //     effect: "coverflow",
+    //     loop: true,
+    //     grabCursor: true,
+    //     centeredSlides: true,
+    //     slidesPerView: "2",
+    //     coverflowEffect: {
+    //         rotate: 30,
+    //         stretch: 0,
+    //         depth: 100,
+    //         modifier: 1,
+    //         slideShadows: true,
+    //     },
+    //     pagination: {
+    //         el: ".swiper-pagination",
+    //         dynamicBullets: true,
+    //     },
+    //     navigation: {
+    //     nextEl: ".swiper-button-next",
+    //     prevEl: ".swiper-button-prev",
+    //   },
+    pagination: '.swiper-pagination',
+   effect: 'coverflow',
+   grabCursor: true,
+   centeredSlides: true,
+   slidesPerView: '2',
+   coverflow: {
+       rotate: 20,
+       stretch: 0,
+       depth: 200,
+       modifier: 1,
+    //    slideShadows: true,
+   },
+   loop: true,
   
     
   });
