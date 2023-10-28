@@ -7,6 +7,8 @@
     height: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
+    background-color: #66666600;
+
   }
 
   .swiper-slide {
@@ -17,7 +19,7 @@
 
   .swiper-button-next,
 .swiper-button-prev {
-  color: #787373; /* Remplacez #ff0000 par la couleur de votre choix (par exemple, rouge) */
+  color: #7a7777; /* Remplacez #ff0000 par la couleur de votre choix (par exemple, rouge) */
   fill: #7a7777; /* Il peut être nécessaire d'ajuster fill si les flèches sont des éléments SVG */
 }
 
