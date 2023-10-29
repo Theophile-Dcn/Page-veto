@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@700&display=swap" rel="stylesheet">
@@ -16,45 +14,42 @@
 <body id="accueil">
     <!-- DERNIERE SESSION : Ajout d'une deuxieme pellicule du haut droit vers le bas gauche a finir. -->
     <!-- LANDING PAGE -->
-    <div class="h-[100vh] relative">
+    <div class="h-[100vh] xl:h-full relative w-\[100vw\]">
         <!-- <img src="pellicule.png" alt="" class="rotate-{180} absolute -top-0 -right-0 -z-20 "> -->
-        <div class="flex justify-end">
-            <img src="./image-site/logo-texto1.png" alt="logo entreprise" class="w-[750px] z-10 absolute -top-24 -left-32">  
-            <div class="my-auto h-full z-10 mt-20 mr-20">
+        <div class="flex flex-col md:flex-row w-[100vw] xl:flex-row justify-center xl:justify-normal xl:w-full">
+            <img src="./image-site/logo-texto1.png" alt="logo entreprise" class="xl:w-[300px] z-10 xl:absolute xl:top-0 xl: left-32 w-52 m-auto">  
+            <div class="my-auto h-full m-auto xl:z-10 xl:mt-20 xl:mr-20 flex-row">
               <a href="https://www.facebook.com/Textoprod/">
-                <i class="fa-brands fa-facebook p-2 border border-black rounded-full" style="color: #000000;"></i>
+                <i class="fa-brands fa-facebook p-2 border border-gray-500 rounded-full" style="color: #5e5e5e;"></i>
               </a>
               <a href="https://www.linkedin.com/in/fanny-lesguillons-1106aa3b/?trk=nav_responsive_tab_profile">
-                <i class="fa-brands fa-linkedin p-2 border border-black rounded-full" style="color: #000000;"></i>
+                <i class="fa-brands fa-linkedin p-2 border border-gray-500 rounded-full" style="color: #5e5e5e;"></i>
               </a>
-              <a href="https://www.linkedin.com/in/fanny-lesguillons-1106aa3b/?trk=nav_responsive_tab_profile">
-                <i class="fa-brands fa-vimeo p-2 border border-black rounded-full" style="color: #000000;"></i>
+              <a href="https://vimeo.com/fannylesguillons">
+                <i class="fa-brands fa-vimeo p-2 border border-gray-500 rounded-full" style="color: #5e5e5e;"></i>
               </a>
             </div>
         </div>
-        <!-- LANDING PAGE LEFT -->
-        <div class="flex pt-[100px] z-10">
-            <div class="flex">
+        <div class="block pt-8 xl:py-20 1xl:pt-[100px] z-10 xl:flex">
+            <!-- LANDING PAGE LEFT -->
+            <div class="flex w-ful">
                 <img src="pellicule.png" alt="" class="absolute -top-100 -left-20 -z-10">
-                <div class="flex-col z-10 w-[40vw] p-[60px] mt-[115px] flex ">  
-                    <h1 class="tracking-wider font-bold text-gray-600 text-4xl ">VOS FILMS <span class="tracking-tighter text-1l font-light inline-block align-middle pb-5  ">  sur mesure</span></h1>
-                    <span class="w-[200px] border-2 h-0 mb-3 "></span>
-                    <p class="text-lg">Chez TextoProd, nous comprenons l'importance de la communication visuelle pour le secteur vétérinaire. Notre entreprise se spécialise dans la production de vidéos et de photos de haute qualité pour les professionnels de la santé animale. Avec des années d'expérience dans le domaine, nous avons acquis une compréhension approfondie des besoins spécifiques de votre secteur.</p>
-                      <button id="scrollBtn" class="learn-more">
+                <div class="flex-col z-10 w-full  justify-center xl:justify-normal items-center  mr-6 ml-6  flex xl:block xl:mt-[115px]  xl:w-[40vw] ">  
+                    <h1 class="tracking-wider font-bold text-gray-600 text-3xl text-center xl:text-left xl:text-4xl pb-2 flex flex-col xl:flex-row ">VOS FILMS <span class="w-[180px] border-2 h-0 ml-12 xl:hidden"></span> <span class="tracking-tighter text-2xl xl:text-xl font-light inline-block align-middle pb-3 xl:pb-5 xl:mt-1 xl:ml-2">  résolument véto</span></h1>
+                    <span class="w-[180px] border-2 h-0 mb-3 hidden  xl:flex  "></span>
+                    <p class="ml-6 mr-6 pb-4 text-sm text-justify 2xl:text-xl">De la création de scénarios à la réalisation d'interviews, du tournage au montage, de l'étalonnage au mixage, de la photographie à la rédaction pour alimenter votre site internet, Textoprod offre une gamme complète de services pour la réalisation de films sur mesure et de contenus parfaitement adaptés à vos besoins spécifiques avec une interlocutrice unique au service de vos créations. Plus de 200 cliniques vétérinaires lui font déjà confiance. Alors, pourquoi pas vous ?</p>
+                      <button id="scrollBtn" class="learn-more ml-8 xl:ml-0 xl:mr-2">
                           <span class="circle" aria-hidden="true">
                           <span class="icon arrow"></span>
                           </span>
                           <span class="button-text"> En savoir plus</span>
                       </button>
-                      <!-- <a id="scrollBtn" href="#contact">
-
-                    </a> -->
                 </div>    
             </div>
         <!-- LANDING PAGE RIGHT -->
-        <div class="w-[55vw] pt-[80px] mr-[70px]">
+        <div class="w-full pt-10 xl:w-[55vw] xl:pt-[80px] xl:mr-[70px]">
         <!-- Slider main container -->
-        <div class="swiper">
+        <div class="swiper h-[34rem]">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
@@ -82,89 +77,76 @@
         <img src="./image-site/bobine.webp" alt="" class="w-1/2 absolute top-1/4 right-0 rotate-180 -z-10">
         <img src="./image-site/clap.png" alt="" class="w-1/3 absolute bottom-20 left-48 -z-30">
         <!-- VIDEO PRESENTATION -->
-        <h1 class="pt-6 pl-16 mb-4 text-4xl text-gray-500">Présenter</h1>
-        <hr class="border-b-2 ml-16 w-[10rem]">
-        <div class="flex justify-between h-[18vw] ml-14 mr-14">
-            <iframe class="w-[410px] h-[300px]" src="https://player.vimeo.com/video/738891972?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="w-[410px] h-[300px]" src="https://player.vimeo.com/video/196285472?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="w-[410px] h-[300px]" src="https://player.vimeo.com/video/687608634?h=781c952b50" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="w-[410px] h-[300px]" src="https://player.vimeo.com/video/350552180?h=65f74a2615" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>  
+        <h1 class="text-3xl text-center mb-2 xl:text-left xl:pt-6 xl:pl-16 xl:mb-4 xl:text-4xl text-gray-600">Présenter</h1>
+        <hr class="border-b-2 ml-24 w-[8rem] xl:ml-16 xl:w-[9rem]">
+        <div class="flex max-w-full flex-row flex-wrap xl:flex justify-around xl:justify-between   xl:h-[18vw] xl:ml-14 xl:mr-14">
+            <iframe class="w-[45vw] h-auto xl:w-[24%] xl:h-[300px]" src="https://player.vimeo.com/video/738891972?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="w-[45vw] h-auto xl:w-[24%] xl:h-[300px]" src="https://player.vimeo.com/video/196285472?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="w-[45vw] h-auto xl:w-[24%] xl:h-[300px]" src="https://player.vimeo.com/video/687608634?h=781c952b50" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="w-[45vw] h-auto xl:w-[24%] xl:h-[300px]" src="https://player.vimeo.com/video/350552180?h=65f74a2615" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>  
         </div>
         <!-- VIDEO RECRUTER  -->
-        <h1 class="pt-6 pl-16 mb-4 text-4xl text-gray-500">Recruter</h1>
-        <hr class="border-b-2 ml-16 w-[10rem]">
-        <div class="flex justify-between h-[18vw] ml-14 mr-14">
-            <iframe class="w-[410px] h-[300px]" src="https://player.vimeo.com/video/878248130?h=ce223dc072" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="w-[410px] h-[300px]" src="https://player.vimeo.com/video/878250745?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="w-[410px] h-[300px]" src="https://player.vimeo.com/video/670597336?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="w-[410px] h-[300px]" src="https://player.vimeo.com/video/792906149?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <h1 class="text-3xl text-center mb-2 xl:text-left xl:pt-6 xl:pl-16 xl:mb-4 xl:text-4xl text-gray-600">Recruter</h1>
+        <hr class="border-b-2 ml-24 w-[8rem] xl:ml-16 xl:w-[9rem]">
+        <div class="flex max-w-full flex-row flex-wrap xl:flex justify-around xl:justify-between  xl:h-[18vw] xl:ml-14 xl:mr-14">
+            <iframe class="w-[45vw] h-auto xl:w-[24%] xl:h-[300px]" src="https://player.vimeo.com/video/878248130?h=ce223dc072" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="w-[45vw] h-auto xl:w-[24%] xl:h-[300px]" src="https://player.vimeo.com/video/878250745?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="w-[45vw] h-auto xl:w-[24%] xl:h-[300px]" src="https://player.vimeo.com/video/670597336?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="w-[45vw] h-auto xl:w-[24%] xl:h-[300px]" src="https://player.vimeo.com/video/792906149?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         </div>
         <!-- VIDEO EXPLIQUER -->
-        <h1 class="pt-6 pl-16 mb-4 text-4xl text-gray-500">Expliquer</h1>
-        <hr class="border-b-2 ml-16 w-[10rem]">
-        <div class="flex justify-between h-[18vw] ml-14 mr-14">
-            <iframe class="w-[410px] h-[300px]" src="https://player.vimeo.com/video/666787507?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="w-[410px] h-[300px]" src="https://player.vimeo.com/video/549817130?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="w-[410px] h-[300px]" src="https://player.vimeo.com/video/160385628?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="w-[410px] h-[300px]" src="https://player.vimeo.com/video/622359032?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <h1 class="text-3xl text-center mb-2 xl:text-left xl:pt-6 xl:pl-16 xl:mb-4 xl:text-4xl text-gray-600">Expliquer</h1>
+        <hr class="border-b-2 ml-24 w-[8rem] xl:ml-16 xl:w-[9rem]">
+        <div class="flex max-w-full flex-row flex-wrap xl:flex justify-around xl:justify-between  xl:h-[18vw] xl:ml-14 2xl:mr-14">
+            <iframe class="w-[45vw] h-auto xl:w-[24%] xl:h-[300px]" src="https://player.vimeo.com/video/666787507?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="w-[45vw] h-auto xl:w-[24%] xl:h-[300px]" src="https://player.vimeo.com/video/549817130?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="w-[45vw] h-auto xl:w-[24%] xl:h-[300px]" src="https://player.vimeo.com/video/160385628?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="w-[45vw] h-auto xl:w-[24%] xl:h-[300px]" src="https://player.vimeo.com/video/622359032?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
     <div class="relative">
-        <img src="https://fr.pngtree.com/freepng/camera-film_642079.html" alt="">
         <!-- ABOUT ME -->
-        <section id="contact" class="bg-gray-50 py-16">
-            <div class="container mx-auto flex items-center">
-              <div class="w-1/3 p-6 mr-24">
-                <img src="./image-site/photo/textoProdPortrait1.webp" alt="Votre photo" class="rounded-full h-[16vw] max-w-xs mx-auto mb-4">
+        <section id="contact" class="bg-gray-50">
+            <div class="container mx-auto flex flex-col items-center text-justify justify-center xl:flex-row">
+              <div class="xl:w-1/3 xl:p-6 xl:mr-24 my-auto">
+                <img src="./image-site/photo/textoProdPortrait1.webp" alt="Votre photo" class="rounded-full h-[70vw] w-[70vw] xl:h-[20vw] xl:w-[20vw] max-w-xs mx-auto xl:my-20">
               </div>
-              <div class="w-1/2 max-w-4xl p-6 bg-white rounded-lg shadow-lg">
-                <h2 class="text-2xl font-semibold text-gray-800 mb-4">À propos de moi</h2>
-                <p class="text-gray-600 leading-relaxed">
-                  Je suis un passionné de développement web avec une solide expérience dans la création de sites web attrayants et fonctionnels. Mon objectif est de fournir des solutions web de haute qualité en utilisant les dernières technologies. Je suis également un amateur de musique, un randonneur enthousiaste et un amateur de cuisine.
+              <div class="mx-12 xl:w-[75vw] xl:max-w-6xl xl:p-6 bg-white rounded-2xl shadow-2xl">
+                <h2 class="text-base xl:text-2xl font-semibold text-gray-800 my-4 text-center xl:text-left">À propos de moi</h2>
+                <p class="text-gray-600 leading-relaxed text-sm xl:text-xl p-4">
+                  Fanny Lesguillons, journaliste  de formation, a créé Textoprod en 2012 pour répondre aux besoins spécifiques des vétérinaires. Un milieu qu’elle connaît parfaitement et dans lequel elle se sent à l’aise. La matériel utilisé lors des tournages en clinique est étudié pour ne pas gêner l’activité quotidienne des équipes. Lorsque c’est possible, Fanny Lesguillons utilise un drone pour mettre en valeur la situation géographique des structures. Autant à l'aise en clinique canine qu'en mixte, femme de vétérinaire, Fanny Lesguillons saura trouver la valeur ajoutée de votre structure et la mettre en valeur. 
                 </p>
-                <div class="mt-6">
-                  <h3 class="text-lg font-semibold text-gray-800 mb-2">Compétences clés :</h3>
-                  <ul class="list-disc list-inside text-gray-600">
-                    <li>Développement web front-end et back-end</li>
-                    <li>HTML, CSS, JavaScript, PHP</li>
-                    <li>Frameworks : React, Node.js, Laravel</li>
-                    <li>Gestion de base de données : MySQL, MongoDB</li>
-                  </ul>
-                </div>
+                
               </div>
             </div>
           </section>
           <!-- CONTACT -->
           <section class="bg-gray-50 py-16">
             <div class="container mx-auto">
-              <div class="max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-lg">
-                <h2 class="text-2xl font-semibold text-gray-800 mb-4">Contact</h2>
-                <p class="text-gray-600 leading-relaxed">
-                  Vous pouvez me contacter en m'envoyant un e-mail à l'adresse suivante : <a href="mailto:votre@email.com" class="text-blue-500 hover:underline">contact@textoprod.fr</a>.
+              <div class="xl:max-w-4xl xl:mx-auto p-6 mx-6 bg-white rounded-2xl shadow-2xl">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-4 text-center xl:text-center">Contact</h2>
+                <p class="text-gray-600 leading-relaxed text-sm xl:text-xl">
+                  Vous pouvez me contacter en m'envoyant un e-mail à l'adresse suivante : <a href="contact@textoprod.fr" class="text-blue-500 hover:underline">contact@textoprod.fr</a>.
                 </p>
               </div>
             </div>
           </section>
         </div>
       <!-- FOOTER -->
-      <footer class="bg-gray-800 text-white py-10">
-        <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+      <footer class="bg-gray-800 text-white py-2 xl:py-10 text-sm xl:text-2xl px-4">
+        <div class="container mx-auto flex xl:justify-around xl:grid-cols-3 md:grid-cols-3 gap-8 ">
+          
           <div class="mb-4">
-            <h3 class="text-xl font-semibold mb-2">Contact</h3>
-            <p class="text-gray-300">Adresse e-mail : <a href="mailto:contact@textoprod.fr" class="text-blue-500 hover:underline">contact@textoprod.fr</a></p>
-            <p class="text-gray-300">Téléphone : <a href="tel:+33620270145" class="text-blue-500 hover:underline">06 20 27 01 45</a></p>
-          </div>
-          <div class="mb-4">
-            <h3 class="text-xl font-semibold mb-2">Liens utiles</h3>
+            <h3 class="text-sm xl:text-xl font-semibold mb-2">Liens utiles</h3>
             <ul class="text-gray-300">
               <li><a href="#accueil" class="hover:underline">Accueil</a></li>
               <li><a href="https://www.textoprod.fr/reportage-video-et-photo-veterinaire/" class="hover:underline">Prestation</a></li>
-              <li><a href="#video" class="hover:underline">Réalisation</a></li>
+              <li><a href="https://vimeo.com/channels/mondeveterinaire" class="hover:underline">Réalisations</a></li>
               <li><a href="#contact" class="hover:underline">À propos de moi</a></li>
             </ul>
           </div>
           <div class="mb-4">
-            <h3 class="text-xl font-semibold mb-2">Réseaux sociaux</h3>
+            <h3 class="text-sm xl:text-xl font-semibold mb-2">Réseaux sociaux</h3>
             <ul class="text-gray-300">
               <li><a href="https://www.facebook.com/Textoprod/" class="hover:underline">Facebook</a></li>
               <li><a href="https://www.linkedin.com/in/fanny-lesguillons-1106aa3b/?trk=nav_responsive_tab_profile" class="hover:underline">Linkedin</a></li>
@@ -172,8 +154,8 @@
             </ul>
           </div>
           <div>
-            <h3 class="text-xl font-semibold mb-2">Visitez notre autre site</h3>
-            <a href="https://www.textoprod.com" target="_blank" class="text-blue-500 hover:underline">Textoprod.com</a>
+            <h3 class="text-sm leading-4 xl:text-xl font-semibold mb-2">Visitez notre autre site</h3>
+            <a href="https://www.textoprod.fr" target="_blank" class="text-blue-500 hover:underline">Textoprod.fr</a>
           </div>
         </div>
       </footer>
