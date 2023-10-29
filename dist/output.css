@@ -568,6 +568,10 @@ video {
   }
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -606,6 +610,22 @@ video {
 
 .left-32 {
   left: 8rem;
+}
+
+.left-1\/2 {
+  left: 50%;
+}
+
+.top-1\/2 {
+  top: 50%;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.top-1\/3 {
+  top: 33.333333%;
 }
 
 .-z-10 {
@@ -667,6 +687,11 @@ video {
   margin-right: 1.5rem;
 }
 
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -709,6 +734,10 @@ video {
 
 .mb-0 {
   margin-bottom: 0px;
+}
+
+.ml-\[50\%\] {
+  margin-left: 50%;
 }
 
 .block {
@@ -771,6 +800,10 @@ video {
   height: 34rem;
 }
 
+.h-\[55vw\] {
+  height: 55vw;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -811,6 +844,14 @@ video {
   width: 2rem;
 }
 
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-\[55vw\] {
+  width: 55vw;
+}
+
 .max-w-4xl {
   max-width: 56rem;
 }
@@ -823,8 +864,27 @@ video {
   max-width: 20rem;
 }
 
+.-translate-x-1\/2 {
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-1\/2 {
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-y-1\/2 {
+  --tw-translate-y: 50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .rotate-180 {
   --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -910,6 +970,10 @@ video {
 
 .border-b-2 {
   border-bottom-width: 2px;
+}
+
+.border-b-4 {
+  border-bottom-width: 4px;
 }
 
 .border-black {
@@ -1005,6 +1069,14 @@ video {
 
 .pt-14 {
   padding-top: 3.5rem;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
 }
 
 .text-center {
@@ -1646,6 +1718,11 @@ button:hover .button-text {
     margin-right: auto;
   }
 
+  .xl\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .xl\:mr-20 {
     margin-right: 5rem;
   }
@@ -1704,6 +1781,18 @@ button:hover .button-text {
 
   .xl\:ml-2 {
     margin-left: 0.5rem;
+  }
+
+  .xl\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .xl\:ml-6 {
+    margin-left: 1.5rem;
+  }
+
+  .xl\:mr-16 {
+    margin-right: 4rem;
   }
 
   .xl\:block {
@@ -1802,12 +1891,36 @@ button:hover .button-text {
     width: 20vw;
   }
 
+  .xl\:w-\[180px\] {
+    width: 180px;
+  }
+
+  .xl\:w-\[8\.8rem\] {
+    width: 8.8rem;
+  }
+
+  .xl\:w-\[8\.7rem\] {
+    width: 8.7rem;
+  }
+
+  .xl\:w-\[8\.5rem\] {
+    width: 8.5rem;
+  }
+
+  .xl\:w-\[9\.2rem\] {
+    width: 9.2rem;
+  }
+
   .xl\:max-w-4xl {
     max-width: 56rem;
   }
 
   .xl\:max-w-6xl {
     max-width: 72rem;
+  }
+
+  .xl\:transform-none {
+    transform: none;
   }
 
   .xl\:grid-cols-3 {
@@ -1882,6 +1995,14 @@ button:hover .button-text {
     padding-bottom: 0px;
   }
 
+  .xl\:pb-6 {
+    padding-bottom: 1.5rem;
+  }
+
+  .xl\:pl-6 {
+    padding-left: 1.5rem;
+  }
+
   .xl\:text-left {
     text-align: left;
   }
@@ -1907,6 +2028,40 @@ button:hover .button-text {
   .xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .xl\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .xl\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .xl\:text-\[3rem\] {
+    font-size: 3rem;
+  }
+
+  .xl\:text-\[2rem\] {
+    font-size: 2rem;
+  }
+
+  .xl\:text-\[1rem\] {
+    font-size: 1rem;
+  }
+
+  .xl\:text-\[1\.4rem\] {
+    font-size: 1.4rem;
+  }
+
+  .xl\:text-\[1\.3rem\] {
+    font-size: 1.3rem;
+  }
+
+  .xl\:leading-6 {
+    line-height: 1.5rem;
   }
 }
 
